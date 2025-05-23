@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 10px;
+  text-align: center;
+}
+
+.swiper {
+  width: 95%;
+  max-width: 1200px;
+  margin: 30px auto;
+  position: relative;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 12px;
+  transition: transform 0.3s;
+}
+
+.swiper-slide img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Botões de navegação */
+.swiper-button-prev,
+.swiper-button-next {
+  color: #333;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 20px;
+}
+
+/* Paginação estilo moderno */
+.swiper-pagination-bullet {
+  background: #999;
+  opacity: 1;
+}
+.swiper-pagination-bullet-active {
+  background: #000;
+}
+.titulo {
+  background-color: black;
+}
+.titulo {
+  color: white;
+  font-size: 50px;
+}
+body {
+  background-color: coral;
+}
+.subtitulo {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 50px;
+}
+.texto {
+  font-size: 50px;
+  font-family: "Cormorant Garamond", serif;
+}
+i {
+  font-size: 30px;
+  margin: 10px;
+  color: #333;
+}
+
+i:hover {
+  color: #e1306c; /* Rosa do Instagram ou outro */
+}
+
+a[href*="wa.me"] i:hover {
+  color: #25d366; /* Verde do WhatsApp */
+}
+.insta-icon {
+  color: #e1306c; /* Rosa do Instagram */
+}
+
+.whatsapp-icon {
+  color: #25d366; /* Verde do WhatsApp ou telefone */
+}
